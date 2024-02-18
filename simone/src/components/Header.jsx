@@ -27,11 +27,12 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                 src="images/logo2.png"
                 title="I'm Simone"
                 alt="profile"
+                style={{ width: '100px', height: '100px' }}
               />
             </span>
-            <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Shaik Sameeruddin
-            </h1>
+            {/* <h1 className="text-5 text-white text-center mb-0 d-lg-block">
+             Shaik Sameeruddin
+            </h1> */}
           </Link>
           {/* Logo End */}
           <div
@@ -78,6 +79,24 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                   About Me
                 </Link>
               </li>
+           
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  smooth
+                  duration={500}
+                  style={{cursor: "pointer"}}
+                  activeClass="active"
+                  spy
+                  to="journey"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsNavModalClose(true);
+                  }}
+                >
+                My Journey
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -92,24 +111,7 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                     setIsNavModalClose(true);
                   }}
                 >
-                  What I Do
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{cursor: "pointer"}}
-                  activeClass="active"
-                  spy
-                  to="resume"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Resume
+               Sci-Fi
                 </Link>
               </li>
               <li className="nav-item">
@@ -166,47 +168,47 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+            <li className="social-icons-instagram">
+              <Tooltip text="Instagram" placement="top">
+                <a
+                  href="https://www.instagram.com/shaiksameerrrr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-instagram" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-youtube">
+              <Tooltip text="Youtube" placement="top">
+                <a
+                  href="https://www.youtube.com/@ShaikSameerrrr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-linkedin">
+              <Tooltip text="Linkedin" placement="top">
+                <a
+                  href="https://www.linkedin.com/in/shaik-sameeruddin-baa421171/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </Tooltip>
+            </li>
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
                 <a
-                  href="http://www.facebook.com/"
+                  href="https://www.facebook.com/ShaikSameeruddin07/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-facebook-f" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-twitter">
-              <Tooltip text="Twitter" placement="top">
-                <a
-                  href="http://www.twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-twitter" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
-                <a
-                  href="http://www.dribbble.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </Tooltip>
-            </li>
-            <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
-                <a
-                  href="http://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github" />
                 </a>
               </Tooltip>
             </li>

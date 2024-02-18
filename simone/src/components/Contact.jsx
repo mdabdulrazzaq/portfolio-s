@@ -55,7 +55,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="contact"
-      className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
+      className={"section " + (darkTheme ? "bg-dark-1" : "bg-light")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
@@ -80,10 +80,13 @@ const Contact = ({ classicHeader, darkTheme }) => {
           </p>
         </div>
         {/* Heading end*/}
-        <div className="row gy-5">
+        
+        <div className="row gy-5" style={{
+                 display: 'flex', justifyContent: 'center', 
+                 alignItems: 'center'}}>
           {/* contact details */}
-          <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
-            <h2
+          {/* <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start"> */}
+            {/* <h2
               className={
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
@@ -96,8 +99,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
               145 Murphy Canyon Rd.
               <br />
               San Diego CA 2028
-            </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            </p> */}
+            {/* <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
@@ -121,72 +124,61 @@ const Contact = ({ classicHeader, darkTheme }) => {
               }
             >
               Follow Me
-            </h2>
-            <ul
+            </h2> */}
+            {/* <ul
               className={
                 "social-icons justify-content-center justify-content-md-start " +
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
-                  <a
-                    href="http://www.dribbble.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-dribbble" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
-                  <a
-                    href="https://twitter.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="http://www.facebook.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-google">
-                <Tooltip text="Google" placement="top">
-                  <a
-                    href="http://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-google" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-github">
-                <Tooltip text="Github" placement="top">
-                  <a
-                    href="http://www.github.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-github" />
-                  </a>
-                </Tooltip>
-              </li>
-            </ul>
-          </div>
+            <li className="social-icons-instagram">
+              <Tooltip text="Instagram" placement="top">
+                <a
+                  href="https://www.instagram.com/shaiksameerrrr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-instagram" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-youtube">
+              <Tooltip text="Youtube" placement="top">
+                <a
+                  href="https://www.youtube.com/@ShaikSameerrrr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-linkedin">
+              <Tooltip text="Linkedin" placement="top">
+                <a
+                  href="https://www.linkedin.com/in/shaik-sameeruddin-baa421171/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-facebook">
+              <Tooltip text="Facebook" placement="top">
+                <a
+                  href="https://www.facebook.com/ShaikSameeruddin07/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+              </Tooltip>
+            </li>
+            </ul> */}
+          {/* </div> */}
           {/* contact form */}
-          <div className="col-md-8 col-xl-9 order-0 order-md-1">
+          <div className="col-md-8 col-xl-9 order-0 order-md-1" >
             <h2
               className={
                 "mb-3 text-5 text-uppercase text-center text-md-start " +
@@ -203,7 +195,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
               ref={form}
               onSubmit={sendEmail}
             >
-              <div className="row g-4">
+              <div className="row g-4" >
+
                 <div className="col-xl-6">
                   <input
                     name="user_name"
@@ -257,6 +250,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             </form>
           </div>
         </div>
+
       </div>
     </section>
   );

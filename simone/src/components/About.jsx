@@ -33,20 +33,22 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Shaik Sameeruddin,</span> a Web
-              Developer
+              I'm <span className="text-primary">Shaik Sameeruddin,</span>
+               {/* a Web
+              Developer */}
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+             a 2022 graduate in Computer Science with a specialization in Data Analytics. Beyond academia, I've embarked on a dynamic entrepreneurial journey,
+             founding multiple startups that seamlessly blend technology and innovation. My expertise extends to the realms of creative expression, as evidenced by my published science
+             fiction book. Currently, I'm dedicated to assisting businesses in building compelling brands at an affordable price. With a committed team, we've collaborated with numerous clients,
+             consistently delivering exceptional results within stipulated timelines and budgets. Drawing inspiration from industry standards, our mission is to transform challenges into opportunities for growth,
+             providing unparalleled value through the convergence of technical expertise and creative vision.
             </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            {/* <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
               requirements is our moto. Lorem Ipsum has been the industry's
               standard dummy text ever when an unknown printer took a galley.
-            </p>
+            </p> */}
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -59,18 +61,18 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Shaik Sameeruddin
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:sameer200124expert@gmail.com">sameer200124expert@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>22
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Chicago,
+                  Illinois
                 </li>
               </ul>
               <a
@@ -91,7 +93,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
             (darkTheme ? "separator-border-light" : "")
           }
         >
-          <div className="row">
+          {/* <div className="row">
             <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
@@ -100,7 +102,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>10</span>+
+                  <span>4</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Years Experiance
@@ -152,7 +154,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* projects rewards counting end */}
       </div>

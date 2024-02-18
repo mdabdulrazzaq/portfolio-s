@@ -10,7 +10,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div className="row">
           <div className="col-lg-6 text-center text-lg-start">
             <p className="mb-3 mb-lg-0">
-              Copyright © 2023{" "}
+              Copyright © 2024{" "}
               <a
                 href="#home"
                 className="fw-500"
@@ -19,7 +19,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                A
               </a>
               . All Rights Reserved.
             </p>
@@ -27,24 +27,24 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
           <div className="col-lg-6">
             <ul className="nav nav-separator justify-content-center justify-content-lg-end">
               <li className="nav-item">
-                <a
+                {/* <a
                   className="nav-link"
                   data-bs-toggle="modal"
                   data-bs-target="#terms-policy"
                   href="#terms-policy"
                 >
                   Terms &amp; Policy
-                </a>
+                </a> */}
               </li>
               <li className="nav-item">
-                <a
+                {/* <a
                   className="nav-link"
                   data-bs-toggle="modal"
                   data-bs-target="#disclaimer"
                   href="#disclaimer"
                 >
                   Disclaimer
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>

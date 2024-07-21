@@ -49,6 +49,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
               requirements is our moto. Lorem Ipsum has been the industry's
               standard dummy text ever when an unknown printer took a galley.
             </p> */}
+            
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -65,7 +66,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:Sameeruddin200124@gmail.com">Sameeruddin200124@gmail.com</a>
+                  <a href="mailto:sameer200124@gmail.com">sameer200124@gmail.com</a>
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>22

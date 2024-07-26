@@ -66,7 +66,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:sameer200124@gmail.com">sameer200124@gmail.com</a>
+                  <a href="mailto:Sameeruddin200124@gmail.com">Sameeruddin200124@gmail.com</a>
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>22

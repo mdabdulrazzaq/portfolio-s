@@ -79,7 +79,7 @@ const Journey = ({ classicHeader, darkTheme }) => {
 
   return (
     <section
-      id="resume"
+      id="journey"
       className={"section " + (darkTheme ? "bg-dark-1" : "")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>

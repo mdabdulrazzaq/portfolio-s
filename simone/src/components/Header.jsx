@@ -80,23 +80,7 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                 </Link>
               </li>
            
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{cursor: "pointer"}}
-                  activeClass="active"
-                  spy
-                  to="journey"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                My Journey
-                </Link>
-              </li>
+             
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -122,6 +106,23 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                   style={{cursor: "pointer"}}
                   activeClass="active"
                   spy
+                  to="journey"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsNavModalClose(true);
+                  }}
+                >
+                My Journey
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  smooth
+                  duration={500}
+                  style={{cursor: "pointer"}}
+                  activeClass="active"
+                  spy
                   to="portfolio"
                   onClick={(e) => {
                     e.preventDefault();
@@ -131,7 +132,7 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -147,7 +148,7 @@ const Header = ({classicHeader, darkTheme, homeRef, handleNavClick}) => {
                 >
                   Testimonial
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "

@@ -26,13 +26,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "zeeshan.aikrux",
         link: "https://www.amazon.in/Zeeshan-Aikrux-Friend-Shaik-Sameeruddin/dp/9356283796",
       },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+      // socialLinks: {
+      //   facebook: "http://www.facebook.com/",
+      //   twitter: "http://www.twitter.com/",
+      //   google: "http://www.google.com/",
+      //   instagram: "http://www.instagram.com/",
+      //   mail: "mailto:example@gmail.com",
+      // },
       thumbImage: "images/projects/za-1.jpeg",
       sliderImages: [
         "images/projects/za-2.jpeg",
@@ -98,7 +98,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       date: "July 16, 2019",
       url: {
         name: "https://searchyourspace.com/",
-        link: "https://play.google.com/store/apps/details?id=com.searchyourspace",
+        link: "https://www.linkedin.com/company/searchyourspace/",
       },
       // socialLinks: {
       //   facebook: "http://www.facebook.com/",

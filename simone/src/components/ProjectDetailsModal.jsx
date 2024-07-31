@@ -169,15 +169,15 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       </li>
                     </ul>
                     <div className="row no-gutters align-items-center">
-                      <div
+                      {/* <div
                         className={
                           "col-auto text-dark font-weight-600" +
                           (darkTheme ? " text-white" : "")
                         }
                       >
                         Share:
-                      </div>
-                      <div className="col-auto">
+                      </div> */}
+                      {/* <div className="col-auto">
                         <ul
                           className={
                             "social-icons" +
@@ -240,7 +240,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             </a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

@@ -73,7 +73,7 @@ const Services = ({ classicHeader, darkTheme }) => {
         </div> */}
         <div onClick={handleClick} style={{ cursor: 'pointer' }}>
           <h2  className={
-              "text-9  fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
+              "text-9  fw-600 text-white position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "texts-white" : "text-dark")
             }>
         Journey Through the Stars:  <span className="text-primary" >   The Sci-Fi World </span>

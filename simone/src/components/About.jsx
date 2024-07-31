@@ -55,7 +55,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
           {/* about me personal detials start */}
           <div className="col-lg-5 col-xl-4">
             <div className="ps-lg-4">
-              <ul
+              {/* <ul
                 className={
                   "list-style-2 " +
                   (darkTheme ? "list-style-light text-light" : "")
@@ -82,7 +82,7 @@ const AboutUs = ({classicHeader, darkTheme}) => {
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
           {/* about me personal details end */}

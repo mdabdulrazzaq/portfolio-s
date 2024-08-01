@@ -9,10 +9,10 @@ const Home = ({classicHeader, darkTheme, handleNavClick}) => {
         <div className="hero-mask opacity-8 bg-dark" />
 
         {/* ---------------image background------------------ */}
-        <div
+        {/* <div
           className="hero-bg parallax"
           style={{backgroundImage: 'url("images/intro-bg.jpg")'}}
-        ></div>
+        ></div> */}
 
         {/* -------------------video background---------------------- */}
 

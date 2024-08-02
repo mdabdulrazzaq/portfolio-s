@@ -38,12 +38,14 @@ const AboutUs = ({classicHeader, darkTheme}) => {
               Developer */}
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-             a 2022 graduate in Computer Science with a specialization in Data Analytics. Beyond academia, I've embarked on a dynamic entrepreneurial journey,
-             founding multiple startups that seamlessly blend technology and innovation. My expertise extends to the realms of creative expression, as evidenced by my published science
-             fiction book. Currently, I'm dedicated to assisting businesses in building compelling brands at an affordable price. With a committed team, we've collaborated with numerous clients,
-             consistently delivering exceptional results within stipulated timelines and budgets. Drawing inspiration from industry standards, our mission is to transform challenges into opportunities for growth,
-             providing unparalleled value through the convergence of technical expertise and creative vision.
-            </p>
+  <ul>
+    <li>👨‍💻 Shaik Sameeruddin is an Author, Inventor, Entrepreneur, and Computer Science Engineer from V.I.T UNIVERSITY (A.P).</li>
+    <li>📑 Sameer has worked on various research papers in the Artificial Intelligence domain, published in national and international journals.</li>
+    <li>🌐 He started his first startup, searchyourspace.com, and was awarded one of the Best Startups in the Annual Business Plan Competition.</li>
+    <li>📚 Alongside working on many ambitious projects, he wrote his first book, "Zeeshan and Aikrux: An Unknown Friend from the Sky."</li>
+  </ul>
+</p>
+
             {/* <p className={darkTheme ? "text-white-50" : ""}>
               Delivering work within time and budget which meets client’s
               requirements is our moto. Lorem Ipsum has been the industry's

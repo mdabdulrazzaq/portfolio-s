@@ -20,7 +20,7 @@ const Home = ({classicHeader, darkTheme, handleNavClick}) => {
           <video
             src={videobg}
             autoPlay
-            
+            muted={true}
             loop
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           ></video>

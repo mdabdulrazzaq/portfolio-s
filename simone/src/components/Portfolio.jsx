@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 import { beforeWrite } from "@popperjs/core";
+
+// simone/build/images/projects/project24.jpeg
 const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
@@ -26,13 +28,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "zeeshan.aikrux",
         link: "https://www.amazon.in/Zeeshan-Aikrux-Friend-Shaik-Sameeruddin/dp/9356283796",
       },
-      // socialLinks: {
-      //   facebook: "http://www.facebook.com/",
-      //   twitter: "http://www.twitter.com/",
-      //   google: "http://www.google.com/",
-      //   instagram: "http://www.instagram.com/",
-      //   mail: "mailto:example@gmail.com",
-      // },
+  
       thumbImage: "images/projects/za-1.jpeg",
       sliderImages: [
         "images/projects/za-2.jpeg",
@@ -45,17 +41,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       "Tangent is an application in which we can share our lifestyle and represent our way of lifestyle and share to various people to try it out and This application allows users to apply digital filters and share their shoot journeys on other social networks and social media platforms and our vision to connect people in not just by providing a platform for chatting and video calling it’s way more than it in which we encourage a lot of creators and content consumers by sending them amazing swags and gifts.",
       industry: "Social Media Platform",
       date: "November 24, 2022",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+      // url: {
+      //   name: "www.example.com",
+      //   link: "https://www.example.com",
+      // },
+  
       thumbImage: "images/projects/tangent-2.jpeg",
       sliderImages: [
         "images/projects/tangent-1.jpeg",
@@ -63,17 +53,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.STARTUPS],
     },
     {
-      title: "Project Title 3",
+      title: "Project 24",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-     
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
+      "A Journey Through Mysteries Adventures",     
+   
+      industry: "SciFi",
+      date: "July 24, 2024",
+
       socialLinks: {
         facebook: "http://www.facebook.com/",
         twitter: "http://www.twitter.com/",
@@ -81,11 +67,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-3.jpg",
-      sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
-      ],
+      thumbImage: "images/projects/project24.jpeg",
+      // sliderImages: [
+      //   "images/projects/project24.jpeg",
+
+      // ],
       categories: [filters.PHOTOS],
     },
 

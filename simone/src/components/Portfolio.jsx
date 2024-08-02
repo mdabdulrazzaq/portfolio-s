@@ -25,7 +25,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Scifi ,Action",
       date: "June 23, 2022",
       url: {
-        name: "zeeshan.aikrux",
+        name: "zeeshan.aikrux(Amazon)",
         link: "https://www.amazon.in/Zeeshan-Aikrux-Friend-Shaik-Sameeruddin/dp/9356283796",
       },
   
@@ -67,7 +67,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project24.jpeg",
+      thumbImage: "images/projects/project24.png",
       // sliderImages: [
       //   "images/projects/project24.jpeg",
 

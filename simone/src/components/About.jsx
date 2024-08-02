@@ -43,6 +43,8 @@ const AboutUs = ({classicHeader, darkTheme}) => {
     <li>📑 Sameer has worked on various research papers in the Artificial Intelligence domain, published in national and international journals.</li>
     <li>🌐 He started his first startup, searchyourspace.com, and was awarded one of the Best Startups in the Annual Business Plan Competition.</li>
     <li>📚 Alongside working on many ambitious projects, he wrote his first book, "Zeeshan and Aikrux: An Unknown Friend from the Sky."</li>
+    <li>📧 Want to collaborate or chat? Reach out at <a href="mailto:sameer200124expert@gmail.com">sameer200124expert@gmail.com</a>.</li>
+
   </ul>
 </p>
 

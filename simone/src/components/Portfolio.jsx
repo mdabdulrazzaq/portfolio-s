@@ -187,7 +187,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             ))}
           </ul>
           {/* Filter Menu end */}
-          <div className="portfolio popup-ajax-gallery">
+          <div className="portfolio popup-ajax-gallery" style={{margin:'10px'}}>
             <div className="row portfolio-filter filter-container g-4">
               {projectsData.length > 0 &&
                 projectsData.map((project, index) => (

@@ -71,7 +71,7 @@ const Services = ({ classicHeader, darkTheme }) => {
             </div>
           </div>
         </div> */}
-        <div onClick={handleClick} style={{ cursor: 'pointer' }}>
+        <div style={{ cursor: 'pointer' }}>
           <h2  className={
               "text-9  fw-600 text-white position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "texts-white" : "text-dark")

@@ -1,14 +1,14 @@
 import React from "react";
 
 const Services = ({ classicHeader, darkTheme }) => {
-  const handleClick = () => {
-    console.log("lol")
-    // Open the specified URL in a new tab when the div is clicked
-    const newTab = window.open('https://sci-fi.shaiksameeruddin.com/', '_blank');
-    if (newTab) {
-      newTab.focus();
-    }
-  };
+  // const handleClick = () => {
+  //   console.log("lol")
+  //   // Open the specified URL in a new tab when the div is clicked
+  //   const newTab = window.open('https://sci-fi.shaiksameeruddin.com/', '_blank');
+  //   if (newTab) {
+  //     newTab.focus();
+  //   }
+  // };
 
 
   return (

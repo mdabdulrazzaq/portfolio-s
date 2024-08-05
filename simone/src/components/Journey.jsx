@@ -124,7 +124,7 @@ const Journey = ({ classicHeader, darkTheme }) => {
        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2023 September"
+          date="2022 June"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#20c997" }}
           icon={<WorkIcon />}
         >
@@ -132,7 +132,7 @@ const Journey = ({ classicHeader, darkTheme }) => {
           <h4 className="vertical-timeline-element-subtitle">
               First Book
           </h4>
-          <p> Entered  into the Scifi- world</p>
+          <p>  Scifi Adventure Begin's</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -144,7 +144,7 @@ const Journey = ({ classicHeader, darkTheme }) => {
              Tangent
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Startup-2</h4>
-          <p>Strategy, Social Media</p>
+          <p>Social Media</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -156,7 +156,7 @@ const Journey = ({ classicHeader, darkTheme }) => {
            Search Your Space
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Startup-1</h4>
-          <p>Online Platform</p>
+          <p>Space Rental Platform</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

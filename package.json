@@ -2,8 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.shaiksameeruddin.com/",
-
+  "homepage": "https://mdabdulrazzaq.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@popperjs/core": "^2.11.6",

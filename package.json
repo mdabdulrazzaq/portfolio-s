@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.shaiksameeruddin.com",
+  "homepage": "https://www.shaiksameeruddin.com/",
 
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
